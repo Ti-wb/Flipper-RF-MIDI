@@ -52,7 +52,7 @@ Tracks update in sequence, with scan time determined by your settings. `MIDI que
 
 ## Compatibility & development
 
-The app temporarily replaces the USB interface used by qFlipper; press **Back** to restore it. **v0.8** builds against SDK API **88.2**. The current binary still needs hardware validation; see [Compatibility & testing](rf_midi/verification.md).
+The app temporarily replaces the USB interface used by qFlipper; press **Back** to restore it. **v0.8** builds against SDK API **88.2**. Installation, USB MIDI, continuous CC output at the default and **16 × 200** settings, pause/resume, and normal exit with USB restoration were tested on **Flipper Zero with Unleashed unlshd-093e / API 88.9**, using **macOS 27.0 / CoreMIDI**. See [Compatibility & testing](rf_midi/verification.md) for results and remaining checks.
 
 To build from source, place `rf_midi/` under `applications_user/` in an API-compatible [official firmware SDK](https://github.com/flipperdevices/flipperzero-firmware), then run `./fbt fap_rf_midi`.
 
