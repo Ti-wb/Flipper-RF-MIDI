@@ -13,7 +13,7 @@ Flipper RF MIDI turns Sub-GHz signal strength into USB MIDI Control Change messa
 
 ## Quick start
 
-With a compiled `rf_midi.fap`:
+Download `rf_midi.fap` from the [latest release](https://github.com/Ti-wb/Flipper-RF-MIDI/releases/latest), then:
 
 1. Copy it to `apps/Tools/` on your Flipper Zero’s microSD card.
 2. Connect Flipper to your computer with a USB data cable.
