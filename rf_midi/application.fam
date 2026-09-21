@@ -1,0 +1,12 @@
+App(
+    appid="rf_midi",
+    name="RF MIDI",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="rf_midi_app",
+    requires=["gui"],
+    sources=["rf_midi.c", "rf_midi_model.c", "rf_midi_view.c", "usb_midi_tx.c"],
+    stack_size=4 * 1024,
+    fap_version=(0, 8),
+    fap_category="Tools",
+    fap_description="Adjustable 1-16 track Sub-GHz RSSI to USB MIDI CC",
+)

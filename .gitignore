@@ -1,0 +1,28 @@
+# Keep this repository focused on the Flipper app.
+/web/
+/tools/
+/output/
+/flipper-rf-midi-dev-plan.md
+
+# Generated app binaries and build products.
+/rf_midi/dist/
+/build/
+/dist/
+*.o
+*.a
+*.elf
+*.fap
+*.dSYM/
+
+# macOS metadata.
+.DS_Store
+._*
+
+# Local agent settings and private configuration.
+/.codex/
+/.agents/
+.env
+.env.*
+!.env.example
+/secret/
+/secrets/
